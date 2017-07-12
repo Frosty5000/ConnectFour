@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/connectfour_background2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/connect_four_logo"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/bt_start"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/reset_color"
+            android:gravity="center"
+            android:onClick="startGame"
+            android:text="Start"
+            android:textAllCaps="false"
+            android:textColor="#FFFF00"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Created by Brandell Petty"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</LinearLayout>
