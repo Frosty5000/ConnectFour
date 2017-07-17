@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/gradient1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brandellpetty.connectfour.BeginnerActivity">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+            android:textStyle="bold"
+        android:text="Learning Basic Strategies"
+        android:textSize="30dp"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+            android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="1) Control the center: One basic strategy for Connect 4 is to have disks in the middle, because this opens up the most opportunities for you to make connections. Because there are an odd number of columns, having disks in the middle means you can make connections in any direction."
+        />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+            android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="2) Plan multiple moves in advance: Just like in chess, moves in Connect 4 can force you or your opponent to make a reactionary move to block a win. Situations like this can be used to your advantage, so it’s important when you're planning a move to think ahead about how your opponent will react."
+        android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+            android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="3) Block your opponent: A very basic strategy of any game is that if you don’t want to lose, you must prevent your opponent from winning. In Connect 4, this means defending against your opponent’s tactics and placing your disks in the open spots that would allow them to complete a four-disk connection."
+        android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:text="4) Take advantage of your opponent’s mistakes: In Connect 4, a mistake is failing to block an opponent’s moves, thereby allowing the opponent to win. To prevent this, you have to pay attention to the board and the implications of each move so you can take advantage of mistakes."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:text="5) Play offensively. While it’s important to play defensively and block your opponent, to win at Connect 4 you must also establish connections with your own disks. You can do this by:
+\n \u2022 Building rows outward in a horizontal fashion.
+\n \u2022 Stacking disks on top of each other to form vertical connections.
+\n \u2022 Using your disks and your opponent’s disks to make diagonal connections with your rows and columns.
+\n \u2022 When possible, place your disks in slots that will create multiple connection possibilities. For instance, if you have disks that are separated by a column or row, find an intermediate slot that will connect the disks and give you opportunities in a diagonal and horizontal or vertical direction."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:text="6) Don’t fill a slot under a game-ending move: In Connect 4, a threat is an empty space adjacent to a three-disk connection that could win the game. Sometimes, these threats can't be used because there are open spaces around them, and you should avoid filling these spaces with your disks, because this could lead to your opponent making a game-ending move.
+\n \u2022 Similarly, if you're trying to set up a win but need the space below your threat filled, don’t fill it with your own disk, or your opponent could block your win."
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</ScrollView>

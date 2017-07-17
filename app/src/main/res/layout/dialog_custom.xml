@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="460dp"
+    android:background="#F8F8FF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_custom_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Here are the rules.."
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#F8F8FF"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/dialog_custom_tv"
+        android:scaleType="centerCrop"
+        android:text="@string/ConnectFour_Rules"
+        android:gravity="center"
+        android:background="@drawable/gradient1"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/dialog_custom_ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="OK"
+        android:background="#778899"/>
+
+</LinearLayout>

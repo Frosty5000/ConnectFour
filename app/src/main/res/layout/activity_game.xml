@@ -13,17 +13,6 @@
         android:id="@+id/reset_button"
         android:background="@drawable/reset_color" />
 
-    <Button
-        android:id="@+id/option_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Options"
-        android:layout_below="@id/reset_button"
-        android:background="@drawable/option_color"
-        />
-
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

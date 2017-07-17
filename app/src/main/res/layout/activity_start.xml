@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_page">
 
 
     <RelativeLayout
@@ -13,12 +15,12 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
             android:layout_marginTop="125dp"
             android:background="@drawable/connect_four_logo"
             android:gravity="center"
-            android:textColor="@android:color/white"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentStart="true" />
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/bt_start"
@@ -32,16 +34,46 @@
             android:onClick="startGame"
             android:text="Start"
             android:textAllCaps="false"
-            android:textColor="#FFFF00"/>
+            android:textColor="#FFFF00" />
+
+        <Button
+            android:id="@+id/option_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/bt_start"
+            android:layout_below="@+id/bt_start"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/option_color"
+            android:onClick="optionView"
+            android:text="Options"
+            android:textAllCaps="false" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="center"
-            android:textColor="@android:color/black"
             android:text="Created by Brandell Petty"
-            android:textStyle="bold"/>
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/start_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/start_radiobutton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="11dp"
+                android:onClick="firstTime"
+                android:text="First time?"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
 
     </RelativeLayout>
 </LinearLayout>

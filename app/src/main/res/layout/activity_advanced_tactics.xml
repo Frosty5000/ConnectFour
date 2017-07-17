@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brandellpetty.connectfour.BeginnerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text="Mastering Advanced Tactics"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="1) Set up a multi-directional attack. This is when you position your disks so that you have a three-disk connection that could be expanded to a connect-four in multiple directions, meaning your end-game move could be in one of several slots.
+\n \u2022 When this happens, you put your opponent in a position where only one direction can be blocked, leaving the others direction free for your end-game move.
+\n \u2022 This method does require planning, and sometimes depends on your opponent making a mistake or not noticing that you're setting up a trap."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:textStyle="bold"
+        android:text="2) Make a “7 trap.” A 7 trap is a name for a very specific strategic move where you position your disks in a configuration that resembles a 7, with three horizontal disks connected to two diagonal disks branching off from the rightmost horizontal disk.
+\n \u2022 The 7 can actually be configured in any way, including right way, backwards, upside down, or even upside down and backwards.
+\n \u2022 This disk formation is a good strategy because it gives you multiple directions in which you can make a connect-four."
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:textStyle="bold"
+        android:text="3) Build a septuplet attack. The septuplet attack is similar to the multi-directional attack, but on a much larger scale. As the name suggests, this strategy sets you up to win in one of seven directions. To execute it, you need to create a very specific configuration with your disks, and will need to control:
+\n \u2022 The bottom center disk.
+\n \u2022 On the second row from the bottom, the slots one in from either side.
+\n \u2022 On the third row from the bottom, the three center slots (in a horizontal configuration).
+\n \u2022 On the center column, the fourth and fifth slots up from the bottom."
+        android:textSize="20dp" />
+
+</LinearLayout>
+    </ScrollView>

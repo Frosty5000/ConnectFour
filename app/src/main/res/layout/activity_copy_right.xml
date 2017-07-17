@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/gradient3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.brandellpetty.connectfour.BeginnerActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Disclaimer"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="This application was created for the purpose of completing a project at Georgia State University for Mobile App Development CSC4360, Summer Semester 2017.
+\n \nThe images within this app are copied from multiple external sources and are not own by the developer.
+\n \nThis application was not created for the purpose of capital gain, but merely to complete an assigned project."
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
